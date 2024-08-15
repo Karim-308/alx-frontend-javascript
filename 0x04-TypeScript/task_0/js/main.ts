@@ -21,12 +21,8 @@ const student1: Student = {
 }
 
 
-const studentsList = [student1 , student2]
+const studentsList = [student1, student2];
 
-
-
-foreach s in studentsList{
-
-	console.log(s.firstName+ " " s.Location)
-
-}
+studentsList.forEach(s => {
+    console.log(s.firstName + " " + s.location);
+});
