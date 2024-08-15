@@ -1,3 +1,4 @@
+
 interface Student {
 	firstName: string;
 	lastName: string;
@@ -6,18 +7,18 @@ interface Student {
 }
 
 const student1: Student = {
-	firstName: "Karim";
-        lastName: "Ibrahim";
-        age: 30;
-        location: "Cairo";  
+	firstName: "Karim",
+    lastName: "Ibrahim",
+    age: 30,
+    location: "Cairo"
 	}
 
 
-const student1: Student = {
-        firstName: "Karim2";
-	lastName: "Ibrahim2";
-	age: 30;
-	location: "Cairo";
+const student2: Student = {
+        firstName: "Karim2",
+	lastName: "Ibrahim2",
+	age: 30,
+	location: "Cairo"
 }
 
 
